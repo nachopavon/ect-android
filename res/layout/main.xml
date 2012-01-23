@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/background">
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/labelWhatsHappening"
+		android:textSize="30sp"
+		android:gravity="center"
+		android:textStyle="bold" />
+	<EditText
+		android:id="@+id/textStatus"
+		android:typeface="serif"
+		android:textColorHint="#E6E6E6"
+		android:textColor="#E6E6E6"
+		android:maxLength="160"
+		android:hint="@string/hintStatus"
+		android:background="@color/transparentBlue"
+		android:layout_width="fill_parent"
+		android:layout_height="100px"
+		android:layout_margin="5px"
+		android:padding="5px"
+		android:minLines="4"></EditText>
+	<Button
+		android:layout_height="wrap_content"
+		android:id="@+id/buttonUpdate"
+		android:text="@string/labelUpdate" android:layout_width="254dp" android:layout_gravity="center_horizontal"></Button>
+</LinearLayout>

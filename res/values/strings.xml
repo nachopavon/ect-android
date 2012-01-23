@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="labelTimeline">Actividad</string>
+<string name="labelUpdate">Comparte</string>
+<string name="hintStatus">Puedes usar hasta 140 Caracters</string>
+<string name="hello">Hello World, MyTwitter!</string>
+<string name="app_name">Send To Elgg</string>
+<string name="labelWhatsHappening">¿En que estas trabajando?</string>
+<string name="sql">
+CREATE table timeline ( _id INTEGER NOT NULL
+    PRIMARY KEY,created_at INTEGER, status TEXT, user TEXT, description TEXT);
+</string>
+</resources>
